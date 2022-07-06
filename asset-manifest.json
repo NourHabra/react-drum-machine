@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-drum-machine/static/css/main.9b2e8b41.css",
+    "main.js": "/react-drum-machine/static/js/main.9dfb5023.js",
+    "index.html": "/react-drum-machine/index.html",
+    "main.9b2e8b41.css.map": "/react-drum-machine/static/css/main.9b2e8b41.css.map",
+    "main.9dfb5023.js.map": "/react-drum-machine/static/js/main.9dfb5023.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b2e8b41.css",
+    "static/js/main.9dfb5023.js"
+  ]
+}
