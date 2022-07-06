@@ -1,0 +1,110 @@
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	user-select: none;
+}
+
+.App {
+	width: 735px;
+	background-color: brown;
+	border-radius: 10px;
+	display: flex;
+}
+
+.drum-pad, .drum-pad button {
+	width: 150px;
+	height: 150px;
+	background-color: gray;
+	border-radius: 10px;
+	font-size: larger;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clip{
+	display: block;
+}
+
+.drum-pad:hover{
+	transform: scale(0.95);
+}
+
+.pads {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	width: fit-content;
+	gap: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#display{
+	background-color: white;
+	width: 80%;
+	height: 40px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.controls {
+	width: 100%;
+	padding: 10px 10px 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.volume {
+	width: 100%;
+	-webkit-appearance: none;
+	background: transparent;
+	cursor: pointer;
+	width: 100%;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+	background-color: transparent;
+	border: 3px solid black;
+	height: 5px;
+	border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	margin-top: -11px; /* Centers thumb on the track */
+	background-color: brown;
+	border: 3px solid black;
+	border-radius: 2px;
+	height: 20px;
+	width: 10px;
+}
+
+.mute{
+  width: 25px;
+}
+
+.volume-controls{
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.change-bank{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
